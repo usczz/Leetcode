@@ -20,9 +20,4 @@ public class ReverseString {
         }
         return new String(buffer);
     }
-
-    public static void main(String[] args) {
-        ReverseString obj = new ReverseString();
-        System.out.println(obj.reverseString("hello"));
-    }
 }
